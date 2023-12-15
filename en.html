@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kagia Generator</title>
+        <link rel="stylesheet" href="styles/main_css.css">
+        <link rel="icon" type="image/x-icon" href="../Favicon.ico">
+    </head>
+
+    <body>
+        <h1>Kagia Generator</h1>
+        <h3>Write anything you want and pick a photo</h3>
+        <p>
+            For a new line use the '#' character.
+            <br>
+            To save, click the download button, or right click the photo and click 'save image' or 'copy image'.
+        </p>
+        <p class="warning">This website was made as a joke. If the person in the photo sees this and takes offence, please email me: <span class="email">klisdimitrios@gmail.com</span></p>
+        
+        <a href="index.html">Ελληνικά</a>
+        
+        <hr>
+
+        <div class="container">
+            <div class="controls">
+                <select style="text-align:center;" name="ImageChoice" id="ImageChoice" class="buttons">
+                    <option value="1">Picture 1</option>
+                    <option value="2">Picture 2</option>
+                    <option value="3">Picture 3</option>
+                    <option value="4">Picture 4</option>
+                    <option value="5">Picture 5</option>
+                    <option value="6">Picture 6</option>
+                    <option value="7">Picture 7</option>
+                    <option value="8">Picture 8</option>
+                    <option value="9">Picture 9</option>
+                    <option value="10">Picture 10</option>
+                    <option value="11">Picture 11</option>
+                </select>
+                <br>
+                <input id="text_input" value="This is absolutely#fine" class="inputField">
+                <br>
+                <input id="button" type="submit" name="button" value="Generate" class="buttons">
+                <br>
+                <br>
+                <button id="download" class="buttons">Download</button>
+            </div>
+
+            <div class="image">
+                <canvas id="myCanvas" width="800" height="800" style="border:1px solid #d3d3d3;">
+                    Your browser does not support the HTML5 canvas tag.
+                </canvas>
+            </div>
+        </div>
+
+        <script src="scripts/main.js"></script>
+    </body>
+</html>

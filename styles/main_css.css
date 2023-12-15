@@ -1,0 +1,58 @@
+body {
+    background-color: #0e1219;
+    color: white;
+    font-family: Bahnschrift_Local;
+}
+.warning{
+    color:#fc8585;
+}
+.email{
+    color: #a0fff9;
+}
+.buttons{
+    font-size:20px;
+    padding: 10px;
+    width: 400px;
+}
+.inputField {
+    font-size: 20px;
+    padding: 10px;
+    width: 376px;
+}
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+@font-face {
+    font-family: Bahnschrift_Local;
+    src: url(../fonts/BAHNSCHRIFT.TTF);
+}
+h1{
+    color:#ffe971;
+}
+
+
+a{
+    color:#a0fff9;
+}
+a:visited {
+    color: #a0fff9;
+}
+
+
+a:hover {
+    color: #67e5dd;
+}
+a:visited :hover {
+    color: #67e5dd;
+}
+
+
+a:active {
+    color: #38bdb4;
+}
+a:visited:active {
+    color: #38bdb4;
+}

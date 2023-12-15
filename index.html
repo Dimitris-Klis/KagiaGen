@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Καγιά Generator</title>
+        <link rel="stylesheet" href="styles/main_css.css">
+        <link rel="icon" type="image/x-icon" href="Favicon.ico">
+    </head>
+
+    <body>
+        <h1>Καγιά Generator</h1>
+        <h3>Γράψτε ότι θέλετε, και διαλέξτε εικόνα</h3>
+        <p>
+            Για αλλαγή γραμμής, χρησιμοποιήστε τον χαρακτήρα '#'
+            <br>
+            Για αποθήκευση κάντε δεξί κλικ στην εικόνα και πατήστε την επιλογή 'save image as' ή 'copy image'.
+        </p>
+        <p class="warning">Η ιστοσελίδα αυτή φτιάχτηκε για αστείο. Αν υπάρχει πρόβλημα να ενημερώσετε στο email: <span class="email">klisdimitrios@gmail.com</span></p>
+        
+        <a href="en.html">English</a>
+        
+        <hr>
+
+        <div class="container">
+            <div class="controls">
+                <select style="text-align:center;" name="ImageChoice" id="ImageChoice" class="buttons">
+                    <option value="1">Εικόνα 1</option>
+                    <option value="2">Εικόνα 2</option>
+                    <option value="3">Εικόνα 3</option>
+                    <option value="4">Εικόνα 4</option>
+                    <option value="5">Εικόνα 5</option>
+                    <option value="6">Εικόνα 6</option>
+                    <option value="7">Εικόνα 7</option>
+                    <option value="8">Εικόνα 8</option>
+                    <option value="9">Εικόνα 9</option>
+                    <option value="10">Εικόνα 10</option>
+                    <option value="11">Εικόνα 11</option>
+                </select>
+                <br>
+                <input id="text_input" value="Ως εδώ και#μη παρέκει" class="inputField">
+                <br>
+                <input id="button" type="submit" name="button" value="Δημιουργία" class="buttons">
+                <br>
+                <br>
+                <button id="download" class="buttons">Λήψη</button>
+            </div>
+
+            <div class="image">
+                <canvas id="myCanvas" width="800" height="800" style="border:1px solid #d3d3d3;">
+                    Ο φυλλομετρητής σας δεν υποστηρίζει την HTML5 canvas ετικέτα.
+                </canvas>
+            </div>
+        </div>
+        
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
