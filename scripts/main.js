@@ -44,7 +44,7 @@ document.getElementById('download').addEventListener('click', function (e) {
     createEl.href = canvasUrl;
 
     // This is the name of our downloaded file
-    createEl.download = "download-this-canvas";
+    createEl.download = "kagia-download";
 
     // Click the download button, causing a download, and then remove it
     createEl.click();
